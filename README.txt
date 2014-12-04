@@ -24,5 +24,4 @@ Was die „Breitseite“ ist und wie sie entsteht:
 
 
 
- * Mehrfache Leerzeichen (im Text zwischen den Worten)            in den Etherpad-Pads (dies hier ist so ein Pad) werden im Produktionsprozess übrigens getilgt, können also getrost ignoriert werden.
-
+ * Mehrfache Leerzeichen (im Text zwischen den Worten)            in den Etherpad-Pads werden im Produktionsprozess übrigens getilgt, können also getrost ignoriert werden.

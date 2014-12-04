@@ -1,0 +1,36 @@
+Moin, Moin und Ahoi {name} {surname}!
+
+###___SECTION[Editorial]TEXT___###
+
+*Übrigens:* Diese E-Mail ist nur ein kleiner Teil der Breitseite. Für die Mehrleser gibt es auf unserem Landesportal die ungekürzte Ausgabe "Volle Breitseite": ###___AUSGABE_LINK___### mit erheblich mehr Artikeln.
+
+Wenn Du selbst auf Veröffentlichungen aufmerksam machen oder auf einen Termin hinweisen möchtest, sende uns eine E-Mail +++ außerdem freuen wir uns immer auf Lob, Kritik und Leserbriefe über breitseite@piratenpartei-sh.de
+
+Die Redaktion der Breitseite
+Anne Burmeister, Annette Gottwald, Arne Wulf, Cindy Baginski, Christiane und Hans vom Schloß
+
+
+###___SECTION[Aus den Regionen]TEXT___###
+
+###___SECTION[Aus der Landtagsfraktion]TEXT___###
+
+###___SECTION[Aus dem Landesverband]TEXT___###
+
+###___SECTION[Aus Europa, dem Bund und den Ländern]TEXT___###
+
+###___SECTION[Fremde Federn]TEXT___###
+
+###___SECTION[Feuilleton]TEXT___###
+
+###___SECTION[Termine]TEXT___###
+
+
+- - - - - - - - - - - - - -
+
+Du kannst diese Breitseite auch im WWW anschauen, siehe: ###___AUSGABE_LINK___###
+
+Du kannst die Zustellung der Breitseite jederzeit abbestellen, verwende dazu: {unsubscription_url}
+
+*Herausgeber*: Piratenpartei Deutschland, Landesverband Schleswig-Holstein, Ringstraße 58 in 24103 Kiel, Tel.: +49-431-55686974
+
+*V.i.S.d.P.*: Christian Thiessen, Vorsitzender des Vorstands

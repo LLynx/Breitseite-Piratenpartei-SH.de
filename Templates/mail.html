@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=320, target-densitydpi=device-dpi">
+
+<style type="text/css">
+@media only screen and (max-width: 660px) { 
+	table[class=w0], td[class=w0] { width: 0 !important; }
+	table[class=w10], td[class=w10], img[class=w10] { width:10px !important; }
+	table[class=w15], td[class=w15], img[class=w15] { width:5px !important; }
+	table[class=w30], td[class=w30], img[class=w30] { width:10px !important; }
+	table[class=w60], td[class=w60], img[class=w60] { width:10px !important; }
+	table[class=w125], td[class=w125], img[class=w125] { width:80px !important; }
+	table[class=w130], td[class=w130], img[class=w130] { width:55px !important; }
+	table[class=w140], td[class=w140], img[class=w140] { width:90px !important; }
+	table[class=w160], td[class=w160], img[class=w160] { width:180px !important; }
+	table[class=w170], td[class=w170], img[class=w170] { width:100px !important; }
+	table[class=w180], td[class=w180], img[class=w180] { width:80px !important; }
+	table[class=w195], td[class=w195], img[class=w195] { width:80px !important; }
+	table[class=w220], td[class=w220], img[class=w220] { width:80px !important; }
+	table[class=w240], td[class=w240], img[class=w240] { width:180px !important; }
+	table[class=w255], td[class=w255], img[class=w255] { width:185px !important; }
+	table[class=w275], td[class=w275], img[class=w275] { width:135px !important; }
+	table[class=w280], td[class=w280], img[class=w280] { width:135px !important; }
+	table[class=w300], td[class=w300], img[class=w300] { width:140px !important; }
+	table[class=w325], td[class=w325], img[class=w325] { width:95px !important; }
+	table[class=w360], td[class=w360], img[class=w360] { width:140px !important; }
+	table[class=w410], td[class=w410], img[class=w410] { width:180px !important; }
+	table[class=w470], td[class=w470], img[class=w470] { width:200px !important; }
+	table[class=w580], td[class=w580], img[class=w580] { width:280px !important; }
+	table[class=w640], td[class=w640], img[class=w640] { width:300px !important; }
+	table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] { display:none !important; }
+	table[class=h0], td[class=h0] { height: 0 !important; }
+	p[class=footer-content-left] { text-align: center !important; }
+	.article-content, #left-sidebar { -webkit-text-size-adjust: 90% !important; -ms-text-size-adjust: 90% !important; }
+	.header-content, .footer-content-left {-webkit-text-size-adjust: 80% !important; -ms-text-size-adjust: 80% !important;}
+	img { height: auto; line-height: 100%;}
+}
+
+#outlook a { padding: 0; }	
+body { width: 100% !important; }
+.ReadMsgBody { width: 100%; }
+.ExternalClass { width: 100%; display:block !important; } 
+
+body { background-color: margin: 0; padding: 0;
+background: #FF8800
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV0AAAFeBAMAAADUMtEqAAAAMFBMVEUAAAAaGhozMzNNTU3ygQD/iAD2gwCzs7PNzc3m5uYKCgoLCwsMDAwNDQ0ODg4PDw/u0ZmbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAd4ElEQVR42u2dy4IbuQqG82hZwH4W8P6vcrpKAn6QVBe73D2Zk8wk6djl8meMEEIIfpHQ9j9//S/Equ3nr1+6P/L1F+v+j/2qdvH2W79+tZe1p/sN/Bp7Uvdbarpiv8P2unRdv629udjV7Y2227D+/jXh1eDlnVf6W+wPCLWnP8DLhZcKLwnyUn/062mmDXRj3X4L70/tV2280nH9G9jfCHk7xMhLwUuZNz7zOa/adcjbGLYfdkIOTRl5aeTtDyFve4vQKvuT7c/g5Tkv/f7Fc15KvDTw2m3EXhr3OOZNH9KFmT6IfWGFV3ferrCsA69QF/T+eteHzGsvZbW32/VZ7CHkxevaFVNePuZtA6oNv+3mG/M+0GRTKvn6T5W3P/ujm6bp/mh/WX9p+6CdNx7a9YZ1f7A/0x6Q9qh909Se2HmljfLt73YLMf3beP+kX//85f3L+5f3A7/EZ/0/m9eNpc1h40XLX/CK+HF/fTPm4j83Z0vdAWO4Nl7eLiN7rU0lGlc2Xurzjd3G7PgFEbDZ+srQpwG2pzIv2ZTWeKXdozkg1D9lTP0zXvzYF8WcBIX+AfDSJV6Ka8hFlb6yGa9kXrF3E5vhxbw1Fhp5aZQvx1PG2x2Vx3jZlV3svvYttdtJ+7e9kXRXBH8MXiGFxYI5POAE2bpCgpfz6LC7B690XgVeUz9y+XLinUEmXvz3nJeBlyUWQHk085pXKq+2lzd3SYGXRkie8cK3QOhQLnhdRZa8v3+Bs0puTcQxV7wKUKaYEuKzC9r3Jubyd28abKjxaiw/jvS386rdJnjNX+8/
+ mLbgeqg
+rXjcINOXl+FSNlxa8ds0tXs68hLx8yCv+4s5nFg955VnevlI2yUg3VAOvFl57hZAzdF4hQv01gzHhFdCHbB940F8Iioh9tl1k3bzs7yFdH3jgZUOr9sxjCmCuhN63DxRCz7yz8WbL5mTPLPqRedscm3hdQRKvvsYrJ7zkvBwBJAgKXePlGe+t+YLqlJp423zRTED/BD6/wSScfuTkI9ABr8c5cD6mPN447vrPLx9+2d/JvGxGQ7v/MONFVwKeEmSJb/x1XkkjeMqrER4Bf0cylFZerf6kK0jlnfiTK94tKrKbgKY2202u++t7bCVCJvuLpc1ne+Clm7o2bshDKqi/+7UWedn+byEbs4l2y/3KjffvevP/krfP8n8Kr/iY/Q/w+gyhsVYhf113rmFUSxg8u68/sXsi/CCvx1R3Hdl4xSc+C0TjjopFivEZNk+cBUxtBDDeBxbKN7bHOi/hShvwNMIRPi0c8cbfD/GyBIv0+LrzSualY14+4n1GIzjAD3j5dV5+jlev8DJbRENTnKdfwQOvTni5D9I3R15AagjNeG2LKfZ8ZMXroagIOvndNe7R/fD6JTMr3+QNL7jwypw3Vr+sI2/sNWnau+q8Ftnw1XV3byjJx5xUgeVs7Pke8LJ/NAl37gVeMn2wTTX1ZatgfI6zU114uaw6g5c8qgm8U/lyhCZ9IQ8LzCrfWGVyX7ZaqNAe9L/sA+kF+bod4wgbUI8wFvnCvJF4IzIka17fROzx6b5PHIsWXAI6L/k6euCF6cxmBE4PJAtdeNMTlZdGXg8aVF6e2LPdIhivVPN1zqtHvGr6a2F9tTBn8KpFRdWDtioYN4wwu6/Bv/bn0SQXL8H2pqv/UMR4hRetcwQMfJ1eePUir2YpanYs7vLSCa8SLLSbgkdUIuuDxWQ6L6MPFIOn8MIzRBAFxvE28HJXhJZEgvrbh3PXX+TlM16FRTRYWZhECGcud81G+0tgH3Z9YOEFrzT7H
+ LxdH6Tw
+MkwsA68UXtffOh9f4G2BK2HbWOPBnt3j3fWXgtd3ooA33F0JT+aEF1Sk8kaUmDXPb+rLlDS/hf9Abb4IVxL9neu8suQ1FBZf1fg0bAG5zMsv8dIhb8SKznjbVLprMPCGfM0YsA01Mj25zstyJl+ilGWU54syKp/x1ye8rOPqTMHK3uLlh3lx8fPFy5V3+HLpPi89zdsoJfHqKa8ir5T1xTfy6rhc04jqZ8tReDXLV/DzvsuLu0TNH//9S/r8BzFXD7P1wMqWujYsxNQCxVKeYv9D3gtGWIip/7FTfjR+RvRQ9OSb4n2x5/KH8dKDvHBTwQjNA29CKGCIkGJAzL1ucL8FIof+5bQfL/C+zp54ac0rJfyVeSHjhc553xnjRAUSf9Tyt38opL7P+452wH7cEa+c8NINXnlnjMdW4iVeAl5+gFdoFD1jKpqWSyL1JN+28JZnauS38EoGihtzHTKSxo/HqjDZceSlFS8veN3/DZrEq3m8chJbWwdLClZTTnC8wwumyT8/aLmHlSPyq5J3UJxXh0/kThLD93TCS8f6oCte/G41Se8+r9vFwksf4pVv5D3Rh8xLa169x8s5BTWFfdLcmXm5mL9DXlrx0n1eqrzmEksaNeGX90Q11ZSKe4dXh92lgdf2Cye8eXorU2x6V64/F97B/ro+yFq+PEhP7vDyjFcOePmAl9OoPOHFocB6gbdmvV/jXelD9m/WvHkLmY94NfNqcXYOeWkiXzqSr1ySr97n5WNeqRP9BV5Zypff4ZUs4PwEmkqd8x7pr17TX4aw9O8T/a0CTjB8gXehv3qoDzTj1SPeIROBKy9lXr7Em1/Kp7z5PMiad5I6MePVwsuX54sTXq40N3j1Ld6FvwOvL7xMg79zk1eK4Rp5k99xifdAvpr2AnM48RKvlvmuCullXr3IC37UJV6Z8MpF3pX+6gd5Na/nFryy4JUcJBl4tax189dyjddSDnwf8hovTadAXBTLMN
+ Q0ErL1C
+i+v5gtY0eicly/zcgpWTnhr/IE+wUu4CmIaeOkar5zz+vR9gZeu8dIRr854ufByJq28+4Uv89K7vDIYVx7jky/x8nVeTvPbZHk65V3HUzmNk3PeElC4ySuLQGflXcerOdv2w/oEfJGXJ3H0g6Dle3sZZ/sX8jivfhMvp3iE4DeXzgD/LG+Nr2dn71/IO9ml0Qkvp8Hyg7wlIb2u2iklxsyPsvO38mqkrapiglQzQBrb28JwyF9z7u6j+4X8oS8vEvkfO9/w+1t4ZQj4hl8cqQyW8UZRbMiTawh56dO8OcedUooiOsYeNo3yQZFc+3n5aqrONOWlU14ZeT8p3wmvTP7FA68e8s43jYek4PEcxzBV1IiHxFefdmVSsSzk1cyb0m2MV2jtleGbsQ7bq/BcjusmXq7W0FKsoDxYmEnMPT7j5RNeusdLS14x3l6NJfEqpDfpON6E5msBSLF/lZcmvAK8IOZs20LTK69+npcqrwYvgXztFAUr1pCLqG7318tIeVIf0NQqnJfQqIUH8pVRvowhsX8u8uor403XvIy7cImX1/LlZ3j9ORl4GavhKCQGH/Lm8ca4wkPe8p2XLIULvDraX57JV1KJEP+NvHyBt2R8cMpqOb+Ehw3GnGiuJXc81yyUJS+t9KEMJp3wFvnqglfPeMvYO+CVb+aVkVeGsVfsA/KW4x2f5uU5r67li/b353hpJl/w0FlgKCZe9M/29RDPebnAXLhkxqvpzHM1ZLGeRTdtydvr2Ux5dcbba9UuLnmDF2e7NF8kY33EO7VnYw7Z27yaeAf/YbJ+Q9td7X7l5SF9k9a8Cun6I6+knYXC64bjgHc2Hx/LN8X4+M3sW1xILcNiyJvCxrzgZYjhnsr3+VTtUb6sL8pX/428/G/hleflKw9GNoCXP6UPT4o67cemYpp0l3c53mz9h6dg/LDKplpzmyCYTaicUwRO1hd6rr9lvqii9kqDJLEpxDCpxfagpsKFQwo
+ N+js0zh
+e88HdO/IfEywQlyzWOZ2JIirFcHPLSOW9hOuOlU14pvDTyQnk7ucer+Tz6a/7khJcFeNH78sd5lK+mUomv8upLvJp4aeRV8sPHlHhTXiGsNycnDPhcvif+75qXNB/48zJ/kWFym5cW/vr19YXldC55oQ6H94fIvENGTh5vN9cXV3hjaPUqccgLvrgW3jAf6R3WvHSBl6/ysn3pbAXxalq887K8yGuBoRNe1O2RF2y/O+Yc3RUkJbt4xVIZjphc4C3BvAvxyXG84dIFebEIAdbIYKhTST/GK2jJMi9G/BV5FcMWt3jpXV4GywDqxfiUWTXsUDLYs5/kpQkvPcL7vj6seelN3jFQzkfzxSvyhS2YMM151iDwH+b+jhzw0mO80CdH00yBvKlHziFv5GPQyf4mLbZAB39HYRsISqbm2mmZ1wxKKv3qt/3k+e6+wtnkb1W5enkYZss62R/ZL2S20rFbSbde5nVYAP6tn/qX9yO88mfxCn0oEHWH90aqjDxdmGJBc8Qr93njtEsuwCIce/KQoYaVt0W9T1ipM4oWuJ1Hx4iJ3QV48S9JoXLMEEjRNx0Kq8pQhBNW41GxBl7C45FA7uf9OSd9sZacw3x+A5Z4+bD3hJcTL+xUpEPWU16aHAm0+gQHvDK6PSkAlsqc0pF8p1Vw+Zp8acbL0bCiegpHf0EZogu89CovX+MdTzdHO06yphdSjlPoULgWeYdat5m3jDdf6EnjZQnfGHldDAxoglU32dWn8g5pA1Nekw/nByA0X0uk7rx6jbfmMXn9yzPeIdnPvEquxb9e4eUUv13z8nDfy7xcdz+PeFmP9SHHm3nOK1gD44SXx2TKgVcXvFR4f6fxVnkxuQaCHtGIctBOb7yK8k0LEpVyxBzNwYxXL/JKNsdot1lzkZHKKwMvlyq4hWnFK8e8fJ03HwoYeGnGy3ho4yovz3j5RL6jPhQNvsRLdWbPxQImvDTnZXASeMIrKW+Qkrc5
+ zG/Ay3N
+eCbw1b1bfbM/Q3arFJ0fefMwhjEJyEdbjDWbsNN4W8n2dN9tfsHeVt+qD3U7q0fhkfye8kg6qnPDSMS+/was0mY8nvPlgjfk7MRHHfJmTS7P/4P3VTEkqL/jhuTA7Td2FQ96y4Y28ZIGg5HEyzTzInNz/Lu9iPpa6i9L9ySVv3ZtOeUyj/0sL3hz5n7m757y4HpryStrr5bwe4roTKvWwIWf7QHHemLwLXn6GpZSv0cX6DR0dyLNKu+XJcLnC5vm41v1Y82Zv/Bqvree9bbeU9fH+F6fmfnvdUieNTpKlRj7+MfIu129ayu0UXoF8jcfOe13g1dX6GOo2zHg/FI8K1Z0WXl7HHxSra5Xa9h+I95EItBptXeHzBftD0OVIrVqDcC6Pq+seaX/jv395L/J+Rzj3+uhwXoEV/Nc2zpemM0QUWleCr2hnTyDeLmhdQLaBvj+0Pwi3fNW+nMR+dU/t/v0LI+ORMOYeQW9h4UkJ5j1IGHzrHsmtH4vnDanXtd9nL7Yck+Y0NPtBeeGzwG4Erb/TwEuxgR69X/ubznISmTxllJtnEF6CwsZfd0el34+9QD+cF7M8ZG4Xc09abK8yXqhfzi6yGW9UWmuM0XLY1gwzXopu2q1nUr9f5mUrqCbG+/Uf+3TXn+Rdf6e8sYQgl++Kl4GX4yeCLC1oPWqyFYjlty0B2jVI2s+08/Io3yUvVd54es5r34war4fAW2tpSbIVa99j3rG0t9kf72Je8vbGKVm+covX+jt7X2o44GatOsT12PVB8ykXabvzNrp5ob9trz/xshbeCLFO9XfFKyPvoL8T3pl8d/3tpks/yyt8KF/XXw39BV4C3lJzxtc/DItLyYrQBx2bqroMsv5yf5/Ky4P+toGWeTliTU7Q7W+UfBSCFr3CknjhgI8l2mjMFyverr+Nl+fjzXh3gXnjXrO/Yata/jrZdrVsjqh1YGrf0tZs07LI96mXI7+8tW6w+Th4yXlNS
+ 9jtGepw
+VLUl5O2xIzZRdHv3bH+GLke3hE2D41MYX/DSjT1n806e5BXjld7ZqfOqa0nrdgzyvb1H/tdf/3/lFThq+Efx0nfyvr6mWvFGnmBNXpd8PgecMK0VlfEoLuZCeODY+r1KcoX3p/fEuH31sU9wwgL7DDkK2vqpaYoWynCKaHyIC1MuBIf1Dhl447QLBMB9kWU+gjBGEilFCCe8LDTdkcyJlbVGIFbBTLzN525urfvwnOL2grPIES8d8vLIyzNeOeIV60zXeaU7F811EBUroRu84T/BqnfNq3d5hyqYyOtZyF0f+jRHFkTYXgFTs/HqdflGDDzUNh4yRWOdgnOKO3sHSNNfPzRCRu+8grzlbAa+a+ItO+2YLMBQQ5lSVwSq3fk4Za6R668ZCFD4c94kqsqrAy/PeFMLvsJbNs6sDVpbRlJakeyRk0EfOPxplK+964JXp7yUyUdennQzpNZkO69IPEqReanxVn2Qz/HS0L0ZVlOS9DfWzdKXlhbSOebl3IlZcvJg1gfkhchB2lzjnMaiyMtlvMkuX9nWbG1ia/Mb6QFvydSo9gF78uXxBhM8Wh2+l9l67D/QON7Kbtgwv+mB/eWcsUJEw8bvM7xgf7vCXOCNUtMrXv6UfO1dPX/nAi+PXsOBfPlx+TLyyuh5LeR7kfdBf/1t3tJxGltdfl5/sYr/cj4Or4FT5fW1/eUWZ+EH1m/wrjZf6Ml8QdV1WMzHiZeaXdV9x2brw9WOGe/PbDNDbzHemvh+WeF+enPKW/wHvTK/XeCVgbfF+LmtfPrfe5S9hzBbCF76A/nE5mV/5yavznmFOi+1Ht7NXejcLdhvF7QH9mK3Z/PFbd5r/oO5lTZ4ecnbayZNeFFAB/4OT8bbJf93wqsW7Wb1Y/Kxe8U96N6/CiXYdqTZqFmsL6SmzPPcf4AWJlPe3sld23ah7W7BiqjLWFy+wiWD64QXVl8pxf+IlwaxI++mocJFH7pj3gxIG3aNlx
+ 7kpRmvn
+PL2ul7mBvQt3V1ruxr3UHFTlcqr13jL+riuIQ7W85C76iYNeFvpFeTt9oy6nR6OUK3G21G8ZMmr412Bd9td2OcLmOp2y7w9rvvmSpsv7KKaIecpd8Cb4mdSy4lyHLhKld9ydmwqJfpQ7kQ98LXz/o1X/+X9z/CSvj9O5JOnOCtvc/92I9TjLdJ9PekzUIuA7fO9tthoc1y0T2ba407m7QhHHlCfvJkF8/vu8e7OkXDqysm8/d+dJvNhmczFtqeUJHj7JLVvbHvzsc7LndcdtuBtE6D24OXuFHGf6Xi336lgwVc9aIGcKO0T587bU5xsrnQRf92EIjZDzeJrkPereqSs/1M7r/btiuDlqIjFvbixhdt6sN2zBFo+Vw9bWc1Yk2CTnvjWqUnZOFtsnLtvgLxdB3rqlsQagrqHIJDv2YVBkYcUWUcRfZPE2xIHdMK7i0aQl2y/oekD67u8XQaRd2K6w54P1JKQqPXz6WHB4LWDFftjtp4B3p7JwI13It/29tw2qUwfJHi58pKv3SBHTyw1T7N8C28XW98I0z7EbLD1fAtPVGzD8SpvX1yo8JyXvXZJ8Pp4A96+unJ7BqtVG2+hDK1SoHh+W+dVW5XZUzZIuj7sUNwXQ84rU14W4A1NZgX9PeB1SxaL8+Dl4DX7mxLD0MEdeVuGBOiv8ap/BKWsv93+6o8kzzqvbwGFfCPXqfOGPfthXvJEJ277n51X2krUdhuNt4/1H0ka6N+3ZRlrH+h9ccp9xO4Bq/1z/PXX/zhe20n7GO+zdUdqx7jHeR++dWlV8jivDGXDykne3FgFNt1mfYTGpj6f4cV6FMibKxLn4iX5aCTRtE7w47y04oVs8Fz7kqdHOae8PGnhCWOSMdSbCruolsPd/cd2HjJ/rSMv6ww068MhbyrpVhuM6uJKqid1nVcIdqFnvAOhrugz79hep/Dymjcdk7NrE69mXs6n0AmafXA6mo5dm9KB1HNeWvDWAr5
+ Rn3bM0L
+/AS738W+KVdMpRrvF67h3wyoKXb/EqNsErZaBe56UJbx53NPLSVH9pxlsO+A5dm/JwGdsXXeXlCS91XpnbBzgK1Cuh52Igj/LyilcOebXwhuIKHHWQang4acmsVrNM6gWX8ukHvG59znhp5C0lopa8uU73jFcOeKl8iwK8esbLRb6wP1e7TA3yPeDVy7z+5MF8wZS79VEKzIz2d1JA5govXePVCW+2Z1p4xXkFq6po7iqU7Rm/zMsX5Lvkpcw7nd8yLyu9xzuVr/WPzU4Bn+nDOS/UGlj6Oye8rJNa5dn/1VzIb3B0aFEMJKVZV//3JflyqcN9xsv5dCFr4pWrvHydtxZOz/7dsH475tUZrz7KW/RB1rzJqaUovxe8nBumsA4D+XFeWvN+4FxK7qUkIy+f2zNIHPPjg5/jzb7GfflyrnLi3+XneOne/DZ0xWSSA951qOBuGCG93Ru8x/JtpWr8PUvaT09+iHyLvnnr/5R2YnSYj1/llSu8gtWsSHAx2G14VErwExAS6XIy9X9n8YdFb6BcOE9YzniVMm+7iSRewRMc5Lx7RHz0f/mGfHV8wQVeEsTRKFmhkN1kpQai4mzbbX2dt9gHdYC8bK28DLwcJ4DEa/txe6aJ08+1aSQIPsRb7NmSV+7zsh3o5zhy8SavnXsYBuNlXi9RCbx9A3/gvSZfPeGNiU2iL/vLvJ5AyhR7zzd45TpvXg/NeeU+r2BZRZ3Wkb6hD8l/4vu8rF7kI/TXN+v7ybZxvXnIK+v5rfh793l1xosWsMpXLvKCSzSpJ12vdV4Ce8aZ1zT+kJczL095IVd64KVZAKDskiBvmigY5wufj9m8UpsvJA4HFl6SWfuXmqmbeOmIl2TGy5AxLbX6O/D2CRiFXHmJ1l5Xjfcd8uZOMUW+nmOa/B0vmSFuZy3zw+tD6TO8fJE3vNen/XU65sVSonNeOeItRffe5eVT+WrmHSe/E95n10N6xsv5NTzh1e/j
+ VT3Th8n
++4cALNQ0G3gf2fMt3LbNtk2F/WfILUM4wJesBL8dCTdKyLXJve175T+ZrYI039QWbgpktW7DfXJbwgJdSgXv21V3e4n442+MmryBR5RVbLbHEbCg/zWs6IBQt5JxX2H0bsZ5j+qO8Erzs/dhcH6Ijj7rXjnaBf5iXCi978F9dH5Id+1fwSrQd9WM3wSups570jGc8wpM6M7NglWLvtsnXvp56PqBXQkm83McYNKmd83pDP4ZOFwK+OPCKu6RMlffga5rwMvJy4pXoGDWON2z4OeDBIkHwuRkv1DTK9UmtHn90CrSU5s7LUSwnFna65pVA8HW1nRtVeCye6zUhCLJ17OSaZ9sLbEj97rySFj8rXpYJL6N8FXgZopaJl2HZbWVPFUvZ65SXmnylH2HWzEtYpTMigL5WkyijNBtvGmGpQ15d8qqJRsz8y74fa/qvGt+nV+OzwwDp9DzypoO93s4WGpdmfcgKEnGTiT44r09XQq0+F/Kqf0WMvGjK0J7VNiGax5uFjnUyAFOcZ8LbLb7z7r83XiaiBxZuVIY8Z3EW+3vMy9KPsE94UX/f4x3t2YqXIww+490nLo66oFV/n+Kd2zPbVSgPHNkHCCsPvJR55VUnYMZ7bs/0mLcdBPfx5vZXS52Ij/DKwv7KhNcD0e20QPDO1rc4dqzeE7H6FD11Tdz7BFhLrcq8MDUjL9/3dzQVbQg+xhyOJS8teGnkZTAmMR+/xitxSs7KDo+8C3vmZRvSSnDCK8/ysoILYSFrqJy9sL/sh9vNiw6BS/J3vDXfQ/JlKBk88n7nku26PkQZ9R56EKuU/GOtEK7xku8QZ16hdyqOPsmbSki7P+m8jNEV/lZe9r2SqHXOlpbN0RJAUuVs5PXtJejnZD5n7LKlhuMeCaDUEM7zGvxZ7DyjZP6D5TUw2F/g5YE3WioJlgLxhRo0kGffZ/QSJ96ojzEZEO8W3Zrggs3C/v5FUSs2d671WpDI65W+O
+ aY0WLJD
+zMJPQ8TxbIHEMR2OcDC59wMFiyhV6Kq8nHgZ52Oo9F156ZCXMy9DdgOlnTerZz/y8kS+cbqAPT3H0nJ2nyMOJ86mtEjnwPP5SaxMmVfhupjEcwVDJigw8EXWeEni27i9pMiREim8yZ8Jl6TylgTnaLTmyG11+T4vJ166w6s88DIWuiJ4TeaNVgi3/PWR95p8Lbc0MqNXvFm+NOdtEQh3lLur0s/ZMvSIK7xhodJ4W/FGRgHmJ2uq14vBqu02ibduPosH/aDdInapDhzCGN8lXjxiAGWqLGKUeN34yYxXolhs4RXgxZDDIa/OebXa3/i25DYv4/EWFitzK96whGb2YWp/ecUrOcGck3YlXo442UIfKi+rncT3iQ72LnFY+GEYTe1MJrwqE3sGvF6nMDL6v+zD/wDv3MhT8Z/4FQAAAABJRU5ErkJggg==);}
+
+img { outline: none; text-decoration: none; display: block;}
+br, strong br, b br, em br, i br { line-height:100%; }
+h1, h2, h3, h4, h5, h6 { line-height: 130% !important; -webkit-font-smoothing: antialiased; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: blue !important; }
+h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {	color: red !important; }
+h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited { color: purple !important; }
+  table td, table tr { border-collapse: collapse; }
+
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
+color: black; text-decoration: none !important; border-bottom: none !important; background: none !important;
+}	
+code {
+  white-space: normal;
+  word-break: break-all;
+}
+#background-table { background-color: #FF8800; }
+
+body, td { font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
+
+#top-bar { border-radius:6px 6px 0px 0px; -moz-border-radius: 6px 6px 0px 0px; -webkit-border-radius:6px 6px 0px 0px; -webkit-font-smoothing: antialiased; background-color: #2E2E2E; color: #888888; }
+#top-bar a { font-weight: bold; color: #eeeeee; text-decoration: none;}
+
+.header-content, .footer-content-left, .footer-content-right { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+.header-content { font-size: 12px; color: #888888; }
+.header-content a { font-weight: bold; color: #eeeeee; text-decoration: none; }
+
+.article-content { font-size: 13px; line-height: 18px; color: #444444; margin-top: 0px; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
+.article-content a { color: #2f82de; text-decoration:none; } /* font-weight:bold; */
+.article-content img { max-width: 100% }
+.article-content ol, .article-content ul { margin-top:0px; margin-bottom:18px; margin-left:19px; padding:0; }
+.article-content li { font-size: 13px; line-height: 18px; color: #444444; }
+.article-content li { margin-bottom: 18px; }
+.article-content li a { color: #2f82de; text-decoration:underline; }
+.article-content p { margin-bottom: 15px; }
+.article-content div.termine p { margin-top: 0px !important; margin-bottom: 0px !important; }
+.article-content div.termine li { margin-bottom: 5px !important; }
+
+#footer { background-color: #000000; color: #888888; }
+#footer { border-radius:0px 0px 6px 6px; -moz-border-radius: 0px 0px 6px 6px; -webkit-border-radius:0px 0px 6px 6px; -webkit-font-smoothing: antialiased; }
+#footer a { color: #eeeeee; text-decoration: none; font-weight: bold; }
+.footer-content-left { font-size: 12px; line-height: 15px; color: #888888; margin-top: 0px; margin-bottom: 15px; }
+.footer-content-left a { color: #eeeeee; font-weight: bold; text-decoration: none; }
+.footer-content-right { font-size: 11px; line-height: 16px; color: #888888; margin-top: 0px; margin-bottom: 15px; }
+.footer-content-right a { color: #eeeeee; font-weight: bold; text-decoration: none; }
+
+#left-sidebar {-webkit-text-size-adjust: 90% !important; -ms-text-size-adjust: 90% !important; }
+</style>
+<!--[if gte mso 9]>
+<style _tmplitem="1321" >
+.article-content ol, .article-content ul {
+	margin: 0 0 0 24px !important;
+	padding: 0 !important;
+	list-style-position: inside !important;
+}
+</style>
+<![endif]--></head><body style="width:100% !important;background-color:#FF8800;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-image:url('http://landesportal.piratenpartei-sh.de/wp-content/themes/piratenkleider/images/int/bg-tags.png');font-family:'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;" ><table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" align="center">
+<table class="w640" style="margin: 0px 10px; width: 640px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="640" height="20">&nbsp;</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="640">
+<table id="top-bar" class="w640" style="border-radius: 6px 6px 0px 0px; background-color: #2e2e2e; color: #888888; width: 640px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w15" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="15">&nbsp;</td>
+<td class="w325" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" align="left" valign="middle" width="350">
+<table class="w325" style="width: 350px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w325" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="350" height="8">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="w325" style="width: 350px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w325" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="350" height="8">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+<td class="w255" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" align="right" valign="middle" width="255">
+<table class="w255" style="width: 255px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w255" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="255" height="8">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w10" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="10">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="middle">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="3">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="middle">
+<div class="header-content" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; font-size: 12px; color: #888888;"><a style="font-weight: bold; color: #eeeeee; text-decoration: none;" href="https://twitter.com/PiratenparteiSH">Tweet</a></div>
+</td>
+<td class="w10" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="10">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="middle">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="3">&nbsp;</td>
+<td style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="middle">
+<div class="header-content" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; font-size: 12px; color: #888888;"><a style="font-weight: bold; color: #eeeeee; text-decoration: none;" href="http://landesportal.piratenpartei-sh.de/">Piraten SH</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="w255" style="width: 255px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w255" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="255" height="8">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="w15" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="15">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td id="header" class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" align="center" bgcolor="#fa8405" width="640">
+<div style="text-align: center;" align="center"><img id="customHeaderImage" class="w640" style="display: inline;" src="http://landesportal.piratenpartei-sh.de/wp-content/uploads/newsletterbilder/Breitseite6.jpg" alt="" width="640" align="top" border="0" /></div>
+</td>
+</tr>
+<tr id="simple-content-row" style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" bgcolor="#ffffff" width="640">
+<table class="w640" style="width: 640px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;">&nbsp;</td>
+<td class="w580" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" align="right" valign="top">###___AUSGABE_NAME___###</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;">&nbsp;</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+<td class="w580" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="top" width="580">
+
+
+<!-- ####### ####### ####### ####### -->
+<!-- ####### ####### ####### ####### -->
+<!-- ####### ####### ####### ####### -->
+
+
+<div class="article-content">
+
+<p>Moin, Moin und Ahoi {name} {surname}!</p>
+
+###___SECTION[Editorial]MAIL___###
+
+<p><strong>Übrigens:</strong> Diese E-Mail ist nur ein kleiner Teil der Breitseite. Für die Mehrleser gibt es auf unserem Landesportal die ungekürzte Ausgabe <a href="###___AUSGABE_LINK___###" target="_blank">„Volle Breitseite“</a> mit erheblich mehr Artikeln.</p>
+
+<p>Wenn Du selbst auf Veröffentlichungen aufmerksam machen oder auf einen Termin hinweisen möchtest, sende uns eine E-Mail &ndash; außerdem freuen wir uns immer auf Lob, Kritik und Leserbriefe über <a href="mailto:breitseite@piratenpartei-sh.de">breitseite@piratenpartei-sh.de</a></p>
+
+<p>Die Redaktion der Breitseite<br />
+Anne Burmeister, Annette Gottwald, Arne Wulf, Cindy Baginski, Christiane und Hans vom Schloß</p>
+
+<hr />
+
+###___SECTION[Aus den Regionen]MAIL___###
+
+###___SECTION[Aus der Landtagsfraktion]MAIL___###
+
+###___SECTION[Aus dem Landesverband]MAIL___###
+
+###___SECTION[Aus Europa, dem Bund und den Ländern]MAIL___###
+
+###___SECTION[Fremde Federn]MAIL___###
+
+###___SECTION[Feuilleton]MAIL___###
+
+<div class="termine">
+###___SECTION[Termine]MAIL___###
+</div>
+<br />
+
+<hr />
+<br />
+
+<p>Sollte die Darstellung dieser Breitseite nicht optimal sein, kannst Du diese Ausgabe <a href="###___AUSGABE_LINK___###" target="_blank">auch im WWW anschauen</a>.</p>
+
+<p>Du kannst die Zustellung der Breitseite jederzeit abbestellen, klicke dazu: <a href="{unsubscription_url}" target="_blank">Abmelden</a></p>
+
+<p><strong>Herausgeber:</strong> Piratenpartei Deutschland, Landesverband Schleswig-Holstein, Ringstraße 58 in 24103 Kiel, Tel.: +49-431-55686974</p>
+
+<p><strong>V.i.S.d.P.:</strong> Christian Thiessen, Vorsitzender des Vorstands</p>
+
+</div>
+
+
+<!-- ####### ####### ####### ####### -->
+<!-- ####### ####### ####### ####### -->
+<!-- ####### ####### ####### ####### -->
+
+
+</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" bgcolor="#ffffff" width="640" height="25">&nbsp;</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="640">
+<table id="footer" class="w640" style="border-radius: 0px 0px 6px 6px; background-color: #000000; color: #888888; width: 640px;" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+<tbody>
+<tr style="border-collapse: collapse;">
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+<td class="w580 h0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="360" height="30">&nbsp;</td>
+<td class="w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="60">&nbsp;</td>
+<td class="w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="160">&nbsp;</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+<td class="w580" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="top" width="360">
+<p class="footer-content-left" style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; font-size: 12px; line-height: 15px; color: #888888; margin-top: 0px; margin-bottom: 15px;" align="left"><a style="color: #eeeeee; text-decoration: none; font-weight: bold;" href="###___AUSGABE_LINK___###">Onlineversion</a>&nbsp;&nbsp;|&nbsp; <a style="color: #eeeeee; text-decoration: none; font-weight: bold;" href="{profile_url}">Einstellungen bearbeiten</a>&nbsp;&nbsp;|&nbsp; <a style="color: #eeeeee; text-decoration: none; font-weight: bold;" href="{unsubscription_url}" target="_tab">Abmelden</a></p>
+</td>
+<td class="hide w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="60">&nbsp;</td>
+<td class="hide w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" valign="top" width="160">&nbsp;</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+<td class="w580 h0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="360" height="15">&nbsp;</td>
+<td class="w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="60">&nbsp;</td>
+<td class="w0" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="160">&nbsp;</td>
+<td class="w30" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="30">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="border-collapse: collapse;">
+<td class="w640" style="font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; border-collapse: collapse;" width="640" height="60">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
